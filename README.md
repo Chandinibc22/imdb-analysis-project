@@ -42,5 +42,5 @@ It also includes a simple machine learning model that predicts IMDb ratings base
 ## 🏆 Author
 ***Chandini B Chandran***  
 📧 chandnibc22@gmail.com  
-💼 [LinkedIn Profile](www.linkedin.com/in/chandinibhanuchandran)  
+💼 [LinkedIn Profile](https://www.linkedin.com/in/chandinibhanuchandran/)  
 
