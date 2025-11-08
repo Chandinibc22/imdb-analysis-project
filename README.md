@@ -1,46 +1,64 @@
-# 🎬 IMDb Movie Data Analysis Project
+# 🎬 IMDb Movie Data Analysis
 
-## 📖 Overview
-This project analyzes a dataset of 1,200+ movies to uncover trends in IMDb ratings, genres, and audience preferences.  
-It also includes a simple machine learning model that predicts IMDb ratings based on movie duration and vote count.
+## Overview
+This project analyzes IMDb movie data to understand movie trends, genre performance, audience ratings, and factors contributing to movie success. It demonstrates core skills in data cleaning, exploratory data analysis (EDA), visualization, and deriving insights.
 
----
+## Tools Used
+- Python (Pandas, NumPy)
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- Git & GitHub
 
-## 🧰 Tools & Libraries
-- **Python**
-- **Pandas** — data manipulation
-- **Matplotlib / Seaborn** — data visualization
-- **Scikit-learn** — simple linear regression model
+## Steps Performed
 
----
+### 1. Data Cleaning
+- Handled missing values
+- Converted columns to correct data types
+- Removed invalid or duplicate entries
 
-## 🧩 Key Steps
-1. Data Cleaning & Preparation  
-2. Exploratory Data Analysis (EDA)  
-3. Correlation & Feature Insights  
-4. Genre and Yearly Trend Analysis  
-5. IMDb Rating Prediction (Regression Model)
+### 2. Exploratory Data Analysis (EDA)
+- Rating distribution and trends
+- Genre-wise rating and popularity comparison
+- Correlation between budget and rating
+- Trends over release years
 
----
+### 3. Visualization
+- Bar charts, histograms, scatter plots, and count plots used to represent patterns clearly.
 
-## 📊 Insights
-- **Drama** and **Biography** genres have the highest IMDb ratings.  
-- **Action** and **Adventure** genres attract more votes (popular appeal).  
-- Ratings fluctuate by year, showing changing audience tastes.  
-- Simple linear model shows votes and duration influence ratings moderately.
+## Key Insights
+- Genres like **Drama** and **Thriller** tend to have consistently higher ratings.
+- The number of movies released increased significantly after 2000.
+- A higher movie budget does **not always** result in better ratings — quality matters.
+- Some genres are popular but receive lower average ratings (volume vs. value).
 
----
+## Project Structure
+
+imdb-analysis-project\
+│\
+├── data\
+│ └── imdb_dataset.csv\
+│\
+├── notebooks\
+│ └── imdb_analysis.ipynb\
+│\
+└── README.md
+
+
+## How to Run
+
+pip install pandas numpy matplotlib seaborn
+
+
+Open the notebook in Jupyter or VS Code and run cells in order.
+
 
 ## 🧠 Future Enhancements
 - Add director/actor-based analysis  
-- Sentiment analysis on IMDb reviews  
-- Dashboard visualization using Plotly or Power BI  
-- Expand dataset to include OTT or box office data  
+- Perform sentiment analysis on IMDb reviews  
+- Create an interactive dashboard using Plotly or Power BI  
+- Expand dataset to include OTT release data or box office performance
+- Add machine learning model to predict movie ratings based on features.
 
 ---
 
-## 🏆 Author
-***Chandini B Chandran***  
-📧 chandnibc22@gmail.com  
-💼 [LinkedIn Profile](https://www.linkedin.com/in/chandinibhanuchandran/)  
-
+This project strengthens foundational skills for **Data Analyst** and **Data Science** roles.
