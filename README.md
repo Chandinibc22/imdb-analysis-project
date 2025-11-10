@@ -1,4 +1,4 @@
-# 🎬 IMDb Movie Data Analysis
+# 🎬 IMDb Movie Data Analysis & Rating Prediction
 
 ## Overview
 This project analyzes IMDb movie data to understand movie trends, genre performance, audience ratings, and factors contributing to movie success. It demonstrates core skills in data cleaning, exploratory data analysis (EDA), visualization, and deriving insights.
